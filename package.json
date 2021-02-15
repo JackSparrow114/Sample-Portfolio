@@ -1,9 +1,13 @@
 {
   "name": "assignment-1",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^14.0.0",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
@@ -16,5 +20,23 @@
     "jquery": "^3.5.1",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "assignment-1 portfolio app",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackSparrow114/Sample-Portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "app",
+    "assignment-1"
+  ],
+  "author": "Arpit Shukla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackSparrow114/Sample-Portfolio/issues"
+  },
+  "homepage": "https://github.com/JackSparrow114/Sample-Portfolio#readme"
 }
